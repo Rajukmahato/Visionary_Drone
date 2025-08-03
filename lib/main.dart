@@ -51,7 +51,7 @@ class _DroneControlScreenState extends State<DroneControlScreen>
   String _wifi = 'Unknown';
   String _battery = 'Unknown';
   Offset? _subjectPosition;
-  double _currentHeight = 0; // Example, update this as needed
+  final double _currentHeight = 0; // Example, update this as needed
   bool _isCommanding = false;
   bool _isVideoInitialized = false;
   bool _isRecording = false;
